@@ -1,7 +1,7 @@
 class Main {
     public static void main(String[] args) {
-        List<String> names = new ArrayList<>();
-        names.add("Alice");
+        String names[] = new String[1];
+        names[0]=("Alice");
         System.out.println(names[0]);
     }
 }
